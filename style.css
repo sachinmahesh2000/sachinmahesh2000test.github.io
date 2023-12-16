@@ -250,4 +250,15 @@ h5 {
         padding: 10px 0;
     }
 
-    nav 
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 0 5px;
+    }
+}
+
+
+
