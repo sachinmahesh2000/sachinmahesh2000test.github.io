@@ -264,8 +264,9 @@ h5 {
     }
 
     nav a {
-        padding: 10px;
-        margin: 0 3px;
+        padding: 15px;
+        margin: 0 8px;
+	font-size: 14px;
     }
 
 
