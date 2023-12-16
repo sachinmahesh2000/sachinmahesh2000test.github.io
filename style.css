@@ -253,3 +253,21 @@ form textarea {
 h5 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Add shadow to the text */
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header, footer {
+        padding: 10px 0;
+    }
+
+    nav a {
+        padding: 10px;
+        margin: 0 3px;
+    }
+
+
+}
+
