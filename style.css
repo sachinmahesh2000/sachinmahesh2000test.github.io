@@ -1,0 +1,251 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url('images/welcome.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #808080;
+}
+
+section {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-background {
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+section h2, section p {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rounded-image1 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.member-details {
+    max-width: 400px;
+}
+
+.blurred-background:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(50px);
+    z-index: -1;
+}
+
+.blurred-background {
+    position: relative;
+}
+
+.blurred-background:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.gallery-page {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rounded-image {
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.rounded-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.flashcard {
+    display: inline-block;
+    width: 300px; /* Adjust the width as needed */
+    margin-right: 20px; /* Adjust the spacing between flashcards */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flashcard-content {
+    padding: 20px;
+}
+
+.flashcard h3 {
+    margin-bottom: 10px;
+}
+
+.flashcard a {
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.flashcard a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the 24/7 Radio section */
+.audio-player {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for the Our Featured Playlist section */
+.spotify-playlist {
+    margin-top: 20px;
+}
+
+/* Responsive styling for the Spotify playlist */
+
+
+/* Style for the contact section */
+.contact-section {
+    text-align: left;
+    margin-left: 50px;
+}
+
+/* Style for the contact form */
+form {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/* Style for the form buttons */
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for the contact information */
+.contact-info {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for the Submit and Reset buttons */
+.form-buttons input {
+    width: 48%; /* Adjust the width as needed */
+    padding: 10px;
+    border-radius: 20px; /* Make the buttons oval-shaped */
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+/* Hover effect */
+.form-buttons input:hover {
+    background-color: #ccc; /* Grey background on hover */
+}
+
+.bullet-list {
+    list-style-type: disc; /* Use disc as the bullet point */
+    color: #fff; /* Set text color */
+    margin-top: 20px; /* Add top margin for spacing */
+    padding-left: 20px; /* Add left padding for alignment */
+}
+
+/* Style for the list items with shadow */
+.bullet-list li {
+    margin-bottom: 10px; /* Add space between list items */
+    margin-left: 20px;
+    text-align: left; /* Align list items to the left */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the text */
+}

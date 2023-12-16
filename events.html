@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Revolution X - Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="blurred-background">
+
+    <header>
+        <h1>Upcoming Events</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="news.html">News</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="music.html">Music</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <section>
+        <div class="section-background"></div>
+        <h2>Upcoming Events</h2>
+
+        
+        <div class="flashcard" id="event1">
+            <div class="flashcard-content">
+                <h3>Muscle Cars Mania</h3>
+                <p><strong>Date:</strong> 25th December 2023</p>
+                <p><strong>Venue:</strong> Parking Lot, Tim Hortons East Ave, Thunder Bay, ON</p>
+                <a href="#" onclick="openGoogleMaps('Tim Hortons East Ave, Thunder Bay, ON')">Directions</a>
+            </div>
+        </div>
+
+        
+        <div class="flashcard" id="event2">
+            <div class="flashcard-content">
+                <h3>Superbike Meet</h3>
+                <p><strong>Date:</strong> 25th December 2023</p>
+                <p><strong>Venue:</strong> Parking Lot, Pacific Mall, Scarborough, ON, CA</p>
+                <a href="#" onclick="openGoogleMaps('Pacific Mall, Scarborough, ON, CA')">Directions</a>
+            </div>
+        </div>
+
+     
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Auto Revolution X. All rights reserved.</p>
+    </footer>
+
+ 
+    <script src="script.js"></script>
+
+    <script>
+        function openGoogleMaps(address) {
+            // Open Google Maps with the provided address
+            window.open('https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(address), '_blank');
+        }
+    </script>
+</body>
+</html>
