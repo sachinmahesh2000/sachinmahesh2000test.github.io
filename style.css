@@ -264,14 +264,14 @@ h5 {
     }
 
     nav {
-        padding: 5px; 
+        text-align: center;
     }
 
     nav a {
-        padding: 5px;
-        margin: 0 3px;
+        display: inline-block;
+        margin: 0 5px;
     }
-
+}
 
 
 }
