@@ -61,7 +61,7 @@ section h2, section p {
     letter-spacing: 2px;
     text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
 }
-
+/*About*/
 .team-member {
     display: flex;
     align-items: center;
@@ -78,7 +78,7 @@ section h2, section p {
 .member-details {
     max-width: 400px;
 }
-
+/*Background blur*/
 .blurred-background:before {
     content: '';
     display: block;
@@ -88,7 +88,7 @@ section h2, section p {
     width: 100%;
     height: 100%;
     background: inherit;
-    filter: blur(50px);
+    filter: blur(5px);
     z-index: -1;
 }
 
@@ -105,10 +105,10 @@ section h2, section p {
     width: 100%;
     height: 100%;
     background: inherit;
-    filter: blur(10px);
+    filter: blur(3px);
     z-index: -1;
 }
-
+/*Gallery*/
 .gallery-page {
     text-align: center;
 }
@@ -132,11 +132,11 @@ section h2, section p {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
+/*flashcards*/
 .flashcard {
     display: inline-block;
-    width: 300px; /* Adjust the width as needed */
-    margin-right: 20px; /* Adjust the spacing between flashcards */
+    width: 300px;
+    margin-right: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
@@ -162,37 +162,29 @@ section h2, section p {
 .flashcard a:hover {
     text-decoration: underline;
 }
-
-/* Style for the 24/7 Radio section */
+/*Radio*/
 .audio-player {
     text-align: center;
     margin-top: 20px;
 }
-
-/* Style for the Our Featured Playlist section */
+/*Spotify*/
 .spotify-playlist {
     margin-top: 20px;
 }
-
-/* Responsive styling for the Spotify playlist */
-
-
-/* Style for the contact section */
+/*Contact Us*/
 .contact-section {
     text-align: left;
     margin-left: 50px;
 }
-
-/* Style for the contact form */
+/*Form section*/
 form {
-    max-width: 600px; /* Adjust the maximum width as needed */
+    max-width: 600px;
     margin: 20px;
 }
 
 form label {
     display: block;
     margin-bottom: 8px;
-    
 }
 
 form input,
@@ -203,13 +195,11 @@ form textarea {
     box-sizing: border-box;
 }
 
-/* Style for the form buttons */
 .form-buttons {
     display: flex;
     justify-content: space-between;
 }
 
-/* Style for the contact information */
 .contact-info {
     margin-top: 20px;
     margin-left: 20px;
@@ -220,40 +210,37 @@ form textarea {
     justify-content: space-between;
 }
 
-/* Style for the Submit and Reset buttons */
 .form-buttons input {
-    width: 48%; /* Adjust the width as needed */
+    width: 48%;
     padding: 10px;
-    border-radius: 20px; /* Make the buttons oval-shaped */
+    border-radius: 20px;
     box-sizing: border-box;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Add smooth transition */
+    transition: background-color 0.3s ease;
 }
 
-/* Hover effect */
 .form-buttons input:hover {
-    background-color: #ccc; /* Grey background on hover */
+    background-color: #ccc;
 }
-
+/*Home page bullet list */
 .bullet-list {
-    list-style-type: disc; /* Use disc as the bullet point */
-    color: #fff; /* Set text color */
-    margin-top: 20px; /* Add top margin for spacing */
-    padding-left: 20px; /* Add left padding for alignment */
+    list-style-type: disc;
+    color: #fff;
+    margin-top: 20px;
+    padding-left: 20px;
 }
 
-/* Style for the list items with shadow */
 .bullet-list li {
-    margin-bottom: 10px; /* Add space between list items */
+    margin-bottom: 10px;
     margin-left: 20px;
-    text-align: left; /* Align list items to the left */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the text */
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 h5 {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Add shadow to the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
-
+/* For mobile */  
 @media screen and (max-width: 768px) {
     body {
         font-size: 14px;
@@ -263,16 +250,4 @@ h5 {
         padding: 10px 0;
     }
 
-    nav {
-        text-align: center;
-    }
-
-    nav a {
-        display: inline-block;
-        margin: 0 5px;
-    }
-}
-
-
-}
-
+    nav 
