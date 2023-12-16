@@ -263,11 +263,15 @@ h5 {
         padding: 10px 0;
     }
 
-    nav a {
-        padding: 15px;
-        margin: 0 8px;
-	font-size: 14px;
+    nav {
+        padding: 10px; 
     }
+
+    nav a {
+        padding: 10px;
+        margin: 0 3px;
+    }
+
 
 
 }
